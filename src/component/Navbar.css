@@ -1,0 +1,17 @@
+.navbar{
+    /* opacity: 30%; */
+    /* z-index: 0; */
+}
+.item{
+    font-weight: bold;
+    /* padding-right: 80px;
+    padding-left: 120px; */
+    font-weight: bolder;
+    color: black;
+    
+   
+}
+.nav-link{
+    color: black;
+}
+   
