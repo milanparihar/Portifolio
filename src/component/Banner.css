@@ -6,7 +6,7 @@ body{
 .bgimg{
     background-image: url(/src/assets/banner.jpg);
     padding: 190px;
-    opacity: 70%;
+    /* opacity: 70%; */
     background-repeat: no-repeat;
     height: 100vh;
 

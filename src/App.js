@@ -13,9 +13,9 @@ function App() {
     <>
       <Navbar />
       <Banner/>
-      {/* <Service/> */}
+      <Service/>
       <Routes>
-        <Route path="Service" element={<Service></Service>}/>              
+        {/* <Route path="Service" element={<Service></Service>}/>               */}
         {/* <Route path="/" element={<Banner></Banner>}/>  */}
         <Route path="/" element={<Home></Home>}/>      
         <Route path="Contact" element={<Contact></Contact>}/>              
