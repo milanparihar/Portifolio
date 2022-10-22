@@ -6,20 +6,28 @@
 
 .service{
     background: #1f2235;
-    padding: 100px 0;
+    padding: 200px 200px;
     color: #fff;
 }
+.service__header{
+    padding: 56px;
+}
 .common{
-    width: 33.333333333333%;
+    width: 90%;
     margin: 20px auto;
     text-align: center;
     /* padding-left:  50%; */
     justify-content: center;
 }
- .col-7{
+ .col{
     /* padding-left: 47px; */
-    margin: 0px 0px 0px 244px;
+    /* margin: 0px 0px 0px 244px; */
  }
+ .col-10 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+    display: flex;
+}
  .heading{
     margin-bottom:10px;
     font-weight: 500;
@@ -42,20 +50,17 @@
 }
 
 
-.col-4{
-    width: 33.333333333333%;
-    display: flex;
-}
 .service__box{
-    padding: 20px;
-   background: #1f2235;
-   color: #fff;
-   margin: 20px;
+    padding: 16px;
+    background: #1f2235;
+    color: #fff;
+    margin: 5px;
+    border-radius: 27px;
 }
 .icon{
     font-size: 40px;
     color: #ff4a57;
-    margin-bottom: 15px;  
+    margin-bottom: 7px;  
 }
 .service__box-header{
     font-size: 16px;
@@ -64,9 +69,9 @@
 }
 .service__box-p{
     font-size: 13px;
-    margin-bottom: 14px;
+    margin: 5px 0px 4px 0px;
 }
-.row{
+.row-1{
     display: flex;
     width: 100%;
     flex-wrap: wrap;

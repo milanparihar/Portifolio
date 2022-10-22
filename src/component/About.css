@@ -1,0 +1,15 @@
+.mianContent{
+    font-size: 16px;
+    column-rule-color: #1f2235;
+}
+.mainHeader{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.common{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    /* padding-left:  50%; */
+    justify-content: center;
+}
