@@ -1,3 +1,11 @@
+.about{
+    width: 100%;
+    /* background: #ffffff; */
+    /* padding: 100px; */
+}
+.about__header{
+    padding: 30px;
+}
 .mianContent{
     font-size: 16px;
     column-rule-color: #1f2235;
@@ -12,4 +20,50 @@
     text-align: center;
     /* padding-left:  50%; */
     justify-content: center;
+}
+/* .about__img img{
+    padding: 100px;
+} */
+.about__img{
+    background-image: url(/src/assets/about.png);
+    padding: 88px;
+    /* opacity: 70%; */
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    /* position: relative; */
+    margin-left: 9rem;    
+
+}
+.h-21{
+    height: 21rem;
+}
+.alignCenter{
+    align-items: center;
+}
+.about__info{
+    color: #1f2235;
+}
+.about__info h1{
+    margin-bottom: 30px;
+}
+.about__info-p1{
+    font-size: 14px;
+    margin-bottom: 20px;
+
+} 
+.about__info-p2{
+    font-size: 14px;
+}
+
+.info__contacts{
+    margin-top: 2opx;
+}
+.info__contacts strong{
+    color: rgb(89, 10, 10);
+}
+.info__contacts p {
+    margin-top: 3px;
+}
+.info__contacts .col-6{
+    margin: 10px 0;
 }
