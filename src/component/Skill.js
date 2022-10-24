@@ -1,6 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './Skill.css';
+import { Link } from "react-router-dom";
+
 
 function Skill() {
+    const[state] = React.useState([
+        {id:1 , percentage: '90', skill:'HTML, CSS'},
+        {id:2 , percentage: '80', skill:'JAVASCRIPT'},
+        {id:3 , percentage: '60', skill:'GITHUB, BOOTSTRAP, TAILWIND'},
+        {id:4 , percentage: '70', skill:'REACT.JS'},
+    ]);
   return (
     <div className="skill">
         <div className="skill__header">
@@ -10,8 +19,25 @@ function Skill() {
                 </div> 
 
                 <div className="row">
-                    <div className="col-6">1</div>
-                    <div className="col-6">2</div>
+                    <div className="col-6">
+                        <p>I`M EXPERT ON</p>
+                        <h1>Let`s Work Together</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa at non eveniet sit possimus facere ut repellendus inventore. Quas culpa suscipit nemo ratione ea vitae quod voluptatum magni totam!</p>
+                        <Link to="src/component/Contact.js" className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Hire Me Now</Link>
+
+                    </div>
+                    <div className="col-6">
+                        {state.map(info=>(
+                        
+                        <div className='skilllist'>
+                            <h4>{info.skill}</h4>
+                            <div className="progress">
+                                <div className="progress-bar" role="progressbar" aria-label="Example with label" style={{width: '100%'}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">{info.percentage}%</div>
+                            </div>
+                        </div>    
+                            
+                        ))};
+                    </div>
                 </div>   
             </div>
         </div>

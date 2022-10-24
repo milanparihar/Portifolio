@@ -46,7 +46,7 @@ function Banner() {
                             </h3>
                                 <p>{state.text}</p>
                             <div className='header__button'>
-                            <a href='/' type="button" class="btn btn-success">My Portfolio</a>
+                            <a href='/' type="button" className="btn btn-success">My Portfolio</a>
                             </div>
                         </div>
                     </div>
@@ -63,3 +63,4 @@ function Banner() {
 }
 
 export default Banner
+

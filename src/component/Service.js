@@ -15,7 +15,7 @@ function Service() {
       id: 1, 
       icon: 'CgWebsite',
       heading: 'Web Developer',
-      text: "Lorem Ipsum is simply dummy text of the printing and  types industry."
+      text2: "Lorem Ipsum is simply dummy text of the printing and  types industry."
     },
 
 
@@ -23,7 +23,7 @@ function Service() {
       id: 2, 
       icon: 'ImFileVideo',
       heading: 'Video Editor',
-      text: "Lorem Ipsum is simply dummy text of the printing and  types industry."
+      text2: "Lorem Ipsum is simply dummy text of the printing and  types industry."
     },
 
 
@@ -31,7 +31,7 @@ function Service() {
       id: 3, 
       icon: 'FaGitAlt',
       heading: 'Git Hub',
-      text: "Lorem Ipsum is simply dummy text of the printing and  types industry."
+      text2: "Lorem Ipsum is simply dummy text of the printing and  types industry."
     },
 
 
@@ -39,7 +39,7 @@ function Service() {
       id: 4, 
       icon: 'SiTryhackme',
       heading: 'Hacking',
-      text: "Lorem Ipsum is simply dummy text of the printing and  types industry."
+      text2: "Lorem Ipsum is simply dummy text of the printing and  types industry."
     },
 
 
@@ -47,7 +47,7 @@ function Service() {
       id: 5, 
       icon: 'DiPhotoshop',
       heading: 'Photo Editor',
-      text: "Lorem Ipsum is simply dummy text of the printing and  types industry."
+      text2: "Lorem Ipsum is simply dummy text of the printing and  types industry."
     },
 
 
@@ -55,7 +55,7 @@ function Service() {
       id: 6, 
       icon: 'ImProfile',
       heading: 'Resume Maker',
-      text: "Lorem Ipsum is simply dummy text of the printing and  types industry."
+      text2: "Lorem Ipsum is simply dummy text of the printing and  types industry."
     },
 
   ]);
@@ -79,7 +79,7 @@ function Service() {
                 <div className='service__box'>
                   <FaGitAlt className='icon'/>
                   <div className='service__box-header'>{info.heading}</div>
-                  <div className='service__box-p'>{info.text}</div>
+                  <div className='service__box-p'>{info.text2}</div>
                 </div>                 
                 </div>  
             
