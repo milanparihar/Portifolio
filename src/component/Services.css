@@ -23,11 +23,7 @@
     /* padding-left: 47px; */
     /* margin: 0px 0px 0px 244px; */
  }
- .col-10 {
-    flex: 0 0 auto;
-    width: 33.3333333333%;
-    display: flex;
-}
+ 
  .heading{
     margin-bottom:10px;
     font-weight: 500;
@@ -56,6 +52,14 @@
     color: #fff;
     margin: 5px;
     border-radius: 27px;
+    transition: all 0.2s linear;
+}
+.service__box:hover{
+    background: #ff4a57;
+
+}
+.service__box:hover .icon{
+    color: #fff;
 }
 .icon{
     font-size: 40px;

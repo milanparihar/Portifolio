@@ -75,7 +75,7 @@ function Service() {
               <div className='row-1'>
                 {state.map((info)=>(
 
-                <div className='col-10'>
+                <div className='col-4'>
                 <div className='service__box'>
                   <FaGitAlt className='icon'/>
                   <div className='service__box-header'>{info.heading}</div>

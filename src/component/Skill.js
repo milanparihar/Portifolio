@@ -23,7 +23,7 @@ function Skill() {
                         <p>I`M EXPERT ON</p>
                         <h1>Let`s Work Together</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa at non eveniet sit possimus facere ut repellendus inventore. Quas culpa suscipit nemo ratione ea vitae quod voluptatum magni totam!</p>
-                        <Link to="src/component/Contact.js" className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Hire Me Now</Link>
+                        <Link to="/Contact" className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Hire Me Now</Link>
 
                     </div>
                     <div className="col-6">
