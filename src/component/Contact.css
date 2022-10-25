@@ -1,0 +1,32 @@
+.contact{
+    /* background: #351f1f; */
+    padding: 81px 80px;
+    color: rgb(0, 0, 0);
+}
+.contact__header{
+    /* padding: 49px 20px 4px 20px; */
+}
+.inp{
+    justify-content: space-evenly;
+    /* color: rgb(0 0 0); */
+    /* background-color  : #561212; */
+    padding: 5px 13px 5px 13px;
+    /* margin: 1px 0px 8px 0px; */
+    margin-bottom: 8px;
+    border-radius: 38px;
+}
+.contact__box{
+    padding: 16px;
+    background: #1f2235;
+    color: #fff;
+    margin: 5px;
+    border-radius: 27px;
+    transition: all 0.2s linear;
+}
+.details{
+    text-align: center;
+
+}
+/* .container{
+    text-align: center;
+} */

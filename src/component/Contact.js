@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGitAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import "./Contact.css";
 
 function Contact() {
   const [state] = React.useState([
@@ -10,7 +11,7 @@ function Contact() {
   ]);
   return (
     <>
-      <div className="contact">
+      <div className="contact" id="contact">
         <div className="contact__header">
           <div className="container">
             <div className="common">
@@ -26,7 +27,7 @@ function Contact() {
 
               <hr className="line" />
             </div>
-            <div className="row">
+            <div className="row-1">
               {state.map((info) => (
                 <div className="col-4">
                   <div className="contact__box">
@@ -40,31 +41,31 @@ function Contact() {
 
               <div className="container">
                 <div className="row">
-                  <div>
+                  <div className="details">
                     <input
                       type="text"
-                      className="col-6"
+                      className="col-6 inp"
                       placeholder="Your Name"
                     />
                     <input
                       type="text"
-                      className="col-6"
+                      className="col-6  inp"
                       placeholder="Your Email"
                     />
                     <input
                       type="text"
-                      className="col-12"
+                      className="col-12 inp"
                       placeholder="Your Subject"
                     />
                     <textarea
                       type="text"
-                      className="col-12"
+                      className="col-12 inp"
                       placeholder="Your message"
                     />
-                  <Link to="/Contact" className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Send Message</Link>
                   </div>
                   
                 </div>
+                  <Link to="/Contact" className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Send Message</Link>
               </div>
             </div>
           </div>

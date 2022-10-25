@@ -14,7 +14,7 @@ function About() {
   ]);
   return (
     <>
-      <div className="about" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0" id="About">
+      <div className="about" id="about" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabIndex="0" >
         <div className="about__header">
           <div className="container">
             <div className="common">
