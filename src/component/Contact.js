@@ -1,7 +1,8 @@
 import React from "react";
 import { FaGitAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import "./Contact.css";
+import "../App.css"
+
 
 function Contact() {
   const [state] = React.useState([

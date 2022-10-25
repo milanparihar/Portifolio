@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skill.css';
+import "../App.css"
 import { Link } from "react-router-dom";
 
 
@@ -36,7 +36,7 @@ function Skill() {
                             </div>
                         </div>    
                             
-                        ))};
+                        ))}
                     </div>
                 </div>   
             </div>

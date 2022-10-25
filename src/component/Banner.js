@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Banner.css"
+import "../App.css"
 import Typewriter from "typewriter-effect";
 import { FaFacebookF, FaGitAlt, FaInstagram, FaLinkedinIn} from 'react-icons/fa';
 
@@ -7,7 +7,7 @@ import { FaFacebookF, FaGitAlt, FaInstagram, FaLinkedinIn} from 'react-icons/fa'
 function Banner() {
     const [state ] = React.useState({title: 'I`m Milan Parihar,' , text:'When using elements that are used to trigger in-page functionality like collapsing content, rather than linking'});
   return (
-        <div  className='bgimg' alt='banner'>
+        <div  className='bgimg' id='banner' alt='banner'>
     <header className="header">
         <div className='container'>
             <div className='row'>

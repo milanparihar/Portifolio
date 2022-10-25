@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Services.css"
+import "../App.css"
 // import { CgWebsite, SiTryhackme, FaGitAlt, ImFileVideo, HiOutlineComputerDesktop ,ImProfile} from 'react-icons/fa';
 import {FaGitAlt} from 'react-icons/fa';
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "../App.css"
 
 function About() {
   const [header] = React.useState({
