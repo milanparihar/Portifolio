@@ -4,7 +4,7 @@ import "../App.css"
 
 function Project() {
   return (
-    <div>Project</div>
+    <div className='project'  id='project12'>Project</div>
   )
 }
 

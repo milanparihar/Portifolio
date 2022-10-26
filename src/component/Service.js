@@ -61,7 +61,7 @@ function Service() {
   ]);
   return (
     <>
-        <div className='services'>
+        <div className='service' id='service12' >
           <div className='col'>
             <div className='service__header'>
               <div className='common'>

@@ -1,10 +1,35 @@
+import emailjs from "emailjs-com";
 import React from "react";
 import { FaGitAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import "../App.css"
-
+import "../App.css";
+import { useRef } from 'react';
 
 function Contact() {
+
+  const form = useRef();
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5pkavwr",
+        "template_5r41yvc",
+        form.current,
+        "s6a_r-Ru7Xy2tTcVo"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+      e.target.reset()
+  }
+
   const [state] = React.useState([
     { id: 1, heading: "Locate us", text: "New Colony, Khuda Lohara, CHD" },
     { id: 2, heading: "Give us a call", text: "+91 88948-71736" },
@@ -12,7 +37,7 @@ function Contact() {
   ]);
   return (
     <>
-      <div className="contact" id="contact">
+      <div className="contact" id="contact12">
         <div className="contact__header">
           <div className="container">
             <div className="common">
@@ -40,34 +65,51 @@ function Contact() {
                 </div>
               ))}
 
-              <div className="container">
+              <form className="container" ref={form} onSubmit={sendEmail}>
                 <div className="row">
                   <div className="details">
                     <input
                       type="text"
+                      name="name"
                       className="col-6 inp"
                       placeholder="Your Name"
                     />
                     <input
-                      type="text"
-                      className="col-6  inp"
-                      placeholder="Your Email"
+                      type="tel"
+                      name="phone"
+                      className="col-6 inp"
+                      placeholder="Phone No."
                     />
                     <input
                       type="text"
+                      name="subject"
                       className="col-12 inp"
                       placeholder="Your Subject"
                     />
+                    <input
+                      type="text"
+                      name="email"
+                      className="col-12  inp"
+                      placeholder="Your Email"
+                    />
                     <textarea
                       type="text"
+                      name="message"
                       className="col-12 inp"
                       placeholder="Your message"
                     />
                   </div>
-                  
                 </div>
-                  <Link to="/Contact" className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Send Message</Link>
-              </div>
+                <button
+                  type="submit"
+                  className="btn btn-primary"
+                  tabIndex="-1"
+                  role="button"
+                  aria-disabled="true"
+                >
+                  Send{" "}
+                </button>
+              </form>
             </div>
           </div>
         </div>

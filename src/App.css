@@ -44,15 +44,20 @@
 }
 .navbar__right li a{
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255) !important;
   font-weight: 500;
   font-size: 20px;
   padding: 0px 15px;
+
   transition: all 0.1s linear;
+  cursor: pointer;
+   
+
 
 }
 .navbar__right li a:hover{
   padding-bottom: 7px;
+  
   border-bottom: 2px solid rgb(242, 55, 9);
 
 
@@ -280,9 +285,9 @@ body{
 }
 
 .service{
-  background: #1f2235;
+  /* background: #1f2235; */
   padding: 200px 200px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 .service__header{
   padding: 49px 20px 4px 20px;

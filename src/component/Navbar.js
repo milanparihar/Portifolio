@@ -1,33 +1,16 @@
 import React from "react";
 import "../App.css";
-// import { useEffect } from "react";
-// import {Link}  from "react-scroll";
-import { Link } from "react-router-dom";
+import {Link}  from "react-scroll";
+// import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 function Navbar() {
   
-  // useEffect(() => {
-  //   window.onscroll = () => {
-  //     if (
-  //       document.body.scrollTop > 50 ||
-  //       document.documentElement.scrollTop > 50
-  //     ) {
-  //       document.getElementById("main").style.backgroundColor = "transparent";
-  //       document.getElementById("main").style.paddingTop = "10px";
-  //       document.getElementById("main").style.opacity = "1";
-  //     } else {
-  //       document.getElementById("main").style.backgroundColor = "#00101b";
-  //       document.getElementById("main").style.paddingTop = "3";
-  //       document.getElementById("main").style.opacity = "0.8";
-  //       document.getElementById("main").style.borderRadius = "50px";
-  //     }
-  //   };
-  // }, []);
+  
 
   return (
     <>
-      <div className="navbar" id="main">
+      <div className="navbar">
         <div className="container">
           <div className="navbar__container">
             <ul className="navbar__left">
@@ -38,7 +21,7 @@ function Navbar() {
             <ul className="navbar__right">
 
               <li>
-                <Link to="/" id="banner"
+                <Link to="bgimg" id="banner"
                   smooth={true}
                   offset={-60}
                   duration={500}>HOME</Link>
@@ -46,8 +29,8 @@ function Navbar() {
 
               <li>
                 <Link
-                  to=" About"
-                  id="about"
+                  to=" about"
+                  id="about12"
                   smooth={true}
                   offset={-60}
                   duration={500}
@@ -58,10 +41,10 @@ function Navbar() {
 
               <li>
                 <Link
-                  to="/Contact"
-                  id="contact"
+                  to="contact"
+                  id="contact12"
                   smooth={true}
-                  offset={-60}
+                  offset={10}
                   duration={500}
                 >
                   CONTACT
@@ -69,24 +52,24 @@ function Navbar() {
               </li>
 
               <li>
-                <Link to="/Skill" 
-                 id="Skill"
+                <Link to="skill" 
+                 id="skill12"
                   smooth={true}
-                  offset={-60}
+                  offset={10}
                   duration={500}>SKILL</Link>
               </li>
 
               <li>
-                <Link to="/Service" 
-                 id="Service"
+                <Link to="service" 
+                 id="service12"
                  smooth={true}
-                 offset={-60}
+                 offset={190}
                  duration={500}>SERVICE</Link>
               </li>
 
               <li>
-                <Link to="/Project"
-                 id="Project"
+                <Link to="project"
+                 id="project12"
                  smooth={true}
                  offset={-60}
                  duration={500}
