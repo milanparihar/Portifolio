@@ -16,6 +16,7 @@ function Navbar() {
             <ul className="navbar__left">
               <div className="navbar__left-logo">
                 <img src={logo} alt="logo" />
+                
               </div>
             </ul>
             <ul className="navbar__right">
@@ -32,7 +33,7 @@ function Navbar() {
                   to=" about"
                   id="about12"
                   smooth={true}
-                  offset={-60}
+                  offset={40}
                   duration={500}
                 >
                   ABOUT
@@ -44,7 +45,7 @@ function Navbar() {
                   to="contact"
                   id="contact12"
                   smooth={true}
-                  offset={10}
+                  offset={-66}
                   duration={500}
                 >
                   CONTACT
@@ -55,7 +56,7 @@ function Navbar() {
                 <Link to="skill" 
                  id="skill12"
                   smooth={true}
-                  offset={10}
+                  offset={40}
                   duration={500}>SKILL</Link>
               </li>
 

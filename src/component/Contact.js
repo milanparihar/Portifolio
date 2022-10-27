@@ -41,8 +41,8 @@ function Contact() {
         <div className="contact__header">
           <div className="container">
             <div className="common">
-              <h4 className="heading">HAVE ANY QUERY ? </h4>
               <h1 className="mainHeader">Contact Me  <span></span></h1>
+              <h4 className="heading">HAVE ANY QUERY ? </h4>
               <p className="mainContent">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Similique culpa in reprehenderit obcaecati fuga, mollitia quos
@@ -104,7 +104,7 @@ function Contact() {
                 </div>
                 <button
                   type="submit"
-                  className="btn btn-primary"
+                  className="btn"
                   tabIndex="-1"
                   role="button"
                   aria-disabled="true"
