@@ -17,14 +17,13 @@ function Skill() {
         <div className="skill__header">
             <div className="container">
                 <div className="comman">
-                    <h1 className="mainHeader">Skills</h1>
+                    <h1 className="mainHeader">Skills <span></span></h1>
                 </div> 
-
                 <div className="row">
                     <div className="col-6">
                         <p>I`M EXPERT ON</p>
                         <h1>Let`s Work Together</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa at non eveniet sit possimus facere ut repellendus inventore. Quas culpa suscipit nemo ratione ea vitae quod voluptatum magni totam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ipsa at non eveniet sit possimus facere ut repellendus inventore. Quas culpa suscipit nemo ratione ea vitae quod voluptatum magni totam!  </p>
                         <Link to="contact" id='contact12'  smooth={true}
                   offset={10}
                   duration={500} className="btn btn-primary" tabIndex="-1" role="button" aria-disabled="true">Hire Me Now</Link>

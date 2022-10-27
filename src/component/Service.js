@@ -65,12 +65,15 @@ function Service() {
           <div className='col'>
             <div className='service__header'>
               <div className='common'>
-              <h3 className='heading'>{header.title}</h3>
-                <h1 className='mainHeader'>{header.subtitle}</h1>
+                <h3 className='heading'>{header.title}</h3>
+                <h1 className='mainHeader'>{header.subtitle} <span></span></h1>
                 <p className='mainContent'>{header.text}</p>
-              </div>
+            </div>
 
-              <hr className='line'/>
+             <p>
+              <span></span>
+             </p>
+
 
               <div className='row-1'>
                 {state.map((info)=>(

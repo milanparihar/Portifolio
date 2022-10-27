@@ -18,10 +18,11 @@ function About() {
         <div className="about__header">
           <div className="container">
             <div className="common">
-              <h1 className="mainHeader">{header.subtitle}</h1>
+              <h1 className="mainHeader">{header.subtitle} <span></span></h1>
               <p className="mainContent">{header.text}</p>
-
-              <hr className="line" />
+              <p>
+                <span></span>
+              </p>
             </div>
 
             <div className="row h-21 alignCenter">

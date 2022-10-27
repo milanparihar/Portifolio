@@ -1,7 +1,7 @@
 import emailjs from "emailjs-com";
 import React from "react";
 import { FaGitAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "../App.css";
 import { useRef } from 'react';
 
@@ -41,8 +41,8 @@ function Contact() {
         <div className="contact__header">
           <div className="container">
             <div className="common">
-              <h4 className="heading">HAVE ANY QUERY ?</h4>
-              <h1 className="mainHeader">Contact Me</h1>
+              <h4 className="heading">HAVE ANY QUERY ? </h4>
+              <h1 className="mainHeader">Contact Me  <span></span></h1>
               <p className="mainContent">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Similique culpa in reprehenderit obcaecati fuga, mollitia quos
@@ -50,8 +50,10 @@ function Contact() {
                 sint aut harum. Nisi, architecto quibusdam harum iusto aliquam
                 illum.
               </p>
+              <p>
+                <span></span>
+              </p>
 
-              <hr className="line" />
             </div>
             <div className="row-1">
               {state.map((info) => (
