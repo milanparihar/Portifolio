@@ -39,7 +39,7 @@ p span {
 }
 .contact__box {
   padding: 16px;
-  background: #1f2235;
+  background: #1c19dd;
   color: #fff;
   margin: 5px;
   border-radius: 27px;
@@ -49,7 +49,7 @@ p span {
   width: 100%;
 }
 .contact__box:hover .icon {
-  color: rgb(255, 10, 10);
+  color: #1c19dd;
 }
 .contact__box-p {
   font-size: 13px;
@@ -62,7 +62,7 @@ p span {
 }
 .icon {
   font-size: 40px;
-  color: #ff4a57;
+  color: #d340ae;
   margin-bottom: 7px;
 }
 .row-1 {
@@ -75,7 +75,7 @@ p span {
   width: 100%;
 }
 .contact__box:hover {
-  background: #c1d90d;
+  background: #d340ae;
 }
 .heading {
   margin-bottom: 10px;
