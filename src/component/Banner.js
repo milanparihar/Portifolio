@@ -7,7 +7,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Banner() {
   const [state] = React.useState({
@@ -42,10 +42,10 @@ function Banner() {
                   <p>{state.text}</p>
                   <ul className="header__ul">
                     <li>
-                      <a
+                      <a 
                         href="https://www.facebook.com/milan.parihar.568"
                         target="_blank"
-                        rel="noopener "
+                        rel="noopener noreferrer"
                       >
                         <FaFacebookF />
                       </a>
@@ -54,7 +54,7 @@ function Banner() {
                       <a
                         href="https://github.com/milanparihar"
                         target="_blank"
-                        rel="noopener "
+                        rel="noopener noreferrer "
                       >
                         <FaGitAlt />
                       </a>
@@ -63,7 +63,7 @@ function Banner() {
                       <a
                         href="https://www.linkedin.com/in/milan-parihar-6a964b201/"
                         target="_blank"
-                        rel="noopener "
+                        rel="noopener noreferrer "
                       >
                         <FaLinkedinIn />
                       </a>
@@ -72,7 +72,7 @@ function Banner() {
                       <a
                         href="https://www.instagram.com/milan._.parihar/"
                         target="_blank"
-                        rel="noopener"
+                        rel="noopener noreferrer "
                       >
                         <FaInstagram />
                       </a>

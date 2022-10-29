@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
-
-
-
-
 /* helper */
 .common {
   width: 100%;
@@ -23,8 +17,6 @@ p span {
   width: 80%;
   height: 2px;
   background: linear-gradient(to right, #ed239f, #1345e6);
-  
-
 }
 
 .mainHeader span {
@@ -39,17 +31,17 @@ p span {
 }
 .contact__box {
   padding: 16px;
-  background: #1c19dd;
+  background: linear-gradient(to right, #e238a1, #2a56e9);
   color: #fff;
   margin: 5px;
   border-radius: 27px;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
 }
 .header {
   width: 100%;
 }
 .contact__box:hover .icon {
-  color: #1c19dd;
+  color: #df1d9e;
 }
 .contact__box-p {
   font-size: 13px;
@@ -62,7 +54,7 @@ p span {
 }
 .icon {
   font-size: 40px;
-  color: #d340ae;
+  color: #2600ff;
   margin-bottom: 7px;
 }
 .row-1 {
@@ -75,7 +67,7 @@ p span {
   width: 100%;
 }
 .contact__box:hover {
-  background: #d340ae;
+  background: linear-gradient(to right, #1345e6, #ed239f);
 }
 .heading {
   margin-bottom: 10px;
@@ -88,20 +80,6 @@ p span {
   margin-top: 100px;
   margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* navbar css */
 
@@ -137,12 +115,11 @@ p span {
 .navbar__right li a:hover {
   padding-bottom: 7px;
 
-  border-bottom: 2px solid  #ed239f;
+  border-bottom: 2px solid #ed239f;
 }
 .navbar__right li a.active {
   padding-bottom: 10px;
-  border-bottom: 2px solid  #ed239f;
-  
+  border-bottom: 2px solid #ed239f;
 }
 .container {
   width: 1200px;
@@ -150,6 +127,9 @@ p span {
 }
 
 /* banner css */
+.header__section {
+  text-align: initial;
+}
 .bgimg {
   background-image: url(/src/assets/banner.jpg);
   padding: 190px;
@@ -219,18 +199,6 @@ p span {
   /* padding-right: 300px; */
   margin-right: 125px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* about css */
 .about {
@@ -308,26 +276,60 @@ p span {
   text-align: center;
 }
 
-
-
-
-
 /* skill css */
 .skill {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 .skilllist {
   margin-bottom: 20px;
 }
 
+/* foooter css */
+.footer__area {
+  height: 48vh;
+  width: 100%;
+  text-align: center;
+  background: #021017 !important;
 
-
-
-
-
-
-
-
-
-
-
+  position: relative;
+}
+.nav {
+  text-decoration: none;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 500;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.footer__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  height: 100px;
+  text-align: center;
+}
+.header span{
+  color: #df1d9e;
+  font-size: 24px;
+  padding-top: 3px;
+}
+.connect {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 27px;
+  color: white;
+  padding-top: 17px;
+  list-style-type: none;
+  justify-content: space-around;
+}
+.copyRight {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 88px;
+  color: white;
+}
+.copyRight span{
+  color: #df1d9e;
+}

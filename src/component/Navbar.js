@@ -5,10 +5,7 @@ import {Link}  from "react-scroll";
 import logo from "../assets/logo.png";
 
 function Navbar() {
-  
-  
-
-  return (
+    return (
     <>
       <div className="navbar">
         <div className="container">
@@ -25,7 +22,7 @@ function Navbar() {
                 <Link to="bgimg" id="banner"
                   smooth={true}
                   offset={-60}
-                  duration={500}>HOME</Link>
+                  duration={100}>HOME</Link>
               </li>
 
               <li>
@@ -34,7 +31,7 @@ function Navbar() {
                   id="about12"
                   smooth={true}
                   offset={40}
-                  duration={500}
+                  duration={100}
                 >
                   ABOUT
                 </Link>
@@ -46,7 +43,7 @@ function Navbar() {
                   id="contact12"
                   smooth={true}
                   offset={-66}
-                  duration={500}
+                  duration={100}
                 >
                   CONTACT
                 </Link>
@@ -57,24 +54,24 @@ function Navbar() {
                  id="skill12"
                   smooth={true}
                   offset={40}
-                  duration={500}>SKILL</Link>
+                  duration={100}>SKILL</Link>
               </li>
 
               <li>
                 <Link to="service" 
                  id="service12"
                  smooth={true}
-                 offset={190}
-                 duration={500}>SERVICE</Link>
+                 offset={-80}
+                 duration={100}>SERVICE</Link>
               </li>
 
               <li>
-                <Link to="project"
-                 id="project12"
+                <Link to="blog"
+                 id="blog12"
                  smooth={true}
                  offset={-60}
-                 duration={500}
-                 >PROJECT</Link>
+                 duration={100}
+                 >BLOG</Link>
               </li>
             </ul>
           </div>

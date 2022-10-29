@@ -52,7 +52,7 @@ function Skill() {
                       className="progress-bar"
                       role="progressbar"
                       aria-label="Example with label"
-                      style={{ width: "100%" }}
+                      style={{ width: "90%" }}
                       aria-valuenow="25"
                       aria-valuemin="0"
                       aria-valuemax="100"
