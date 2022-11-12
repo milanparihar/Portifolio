@@ -8,7 +8,7 @@ function About() {
   });
   const [state] = React.useState([
     {id:1 , title: 'Name', text:'Milan Parihar'},
-    {id:2 , title: 'Email', text:'milanparihar1234@.com'},
+    {id:2 , title: 'Email', text:'milan'},
     {id:3 , title: 'Contact', text:'+91 88948-71736'},
     {id:4 , title: 'Linkedin', text:'Milan Parihar'},
   ]);

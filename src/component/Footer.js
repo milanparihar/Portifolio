@@ -9,10 +9,10 @@ import "../App.css";
 function Footer() {
   return (
     <div className="footer__area">
-      <div className="footer__container">
+      <div className="footer__containe-fluidr">
         <div className="header">
           <img src={logo} alt="logo" />
-          <span>MiLAN</span>
+          <span className="highlight" >MiLAN</span>
         </div>
         <div className="nav">
           <li>

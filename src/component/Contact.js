@@ -33,7 +33,7 @@ function Contact() {
   const [state] = React.useState([
     { id: 1, heading: "Locate us", text: "New Colony, Khuda Lohara, CHD" },
     { id: 2, heading: "Give us a call", text: "+91 88948-71736" },
-    { id: 3, heading: "Email", text: "milanparihar1234@gmail.com" },
+    { id: 3, heading: "Email", text: "abc@gmail.com" },
   ]);
   return (
     <>

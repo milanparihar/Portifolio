@@ -31,17 +31,17 @@ p span {
 }
 .contact__box {
   padding: 16px;
-  background: linear-gradient(to right, #e238a1, #2a56e9);
+  background: #222f3e;
   color: #fff;
   margin: 5px;
   border-radius: 27px;
-  transition: all 0.5s linear;
+  transition: all 0.2s linear;
 }
 .header {
   width: 100%;
 }
 .contact__box:hover .icon {
-  color: #df1d9e;
+  color: #000000;
 }
 .contact__box-p {
   font-size: 13px;
@@ -54,7 +54,7 @@ p span {
 }
 .icon {
   font-size: 40px;
-  color: #2600ff;
+  color: #ff0000d0;
   margin-bottom: 7px;
 }
 .row-1 {
@@ -67,7 +67,7 @@ p span {
   width: 100%;
 }
 .contact__box:hover {
-  background: linear-gradient(to right, #1345e6, #ed239f);
+  background: #ed239f;
 }
 .heading {
   margin-bottom: 10px;
@@ -121,10 +121,17 @@ p span {
   padding-bottom: 10px;
   border-bottom: 2px solid #ed239f;
 }
-.container {
+/* .container {
   width: 1200px;
   margin: 0 auto;
-}
+} */
+
+
+/* .NavbarDrop {
+  float: right;
+  display: none;
+  padding: 14px 30px 0 0;
+} */
 
 /* banner css */
 .header__section {
@@ -174,8 +181,8 @@ p span {
 
 .btn {
   /* display: inline-block; */
-  background: linear-gradient(to right, #ed239f, #1345e6);
-  color: #fff;
+  background: #f368e0;
+  color: rgb(0, 0, 0);
   /* letter-spacing: 0; */
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -187,9 +194,14 @@ p span {
   cursor: pointer;
   /* text-transform: uppercase; */
   border-radius: 8px;
-  /* background-size: 200% auto; */
   text-decoration: none;
   transition: all 0.3s linear;
+}
+.btn:hover{
+  background: #000000;
+  color: rgb(255, 255, 255);
+
+
 }
 
 .header__ul li {
@@ -264,6 +276,13 @@ p span {
   margin: 10px 0;
 }
 
+
+
+
+
+
+
+
 /* contact css  */
 
 .inp {
@@ -287,7 +306,7 @@ p span {
 
 /* foooter css */
 .footer__area {
-  height: 48vh;
+  height: 50vh;
   width: 100%;
   text-align: center;
   background: #021017 !important;
@@ -296,11 +315,16 @@ p span {
 }
 .nav {
   text-decoration: none;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(255, 196, 196) !important;
   font-weight: 500;
-  justify-content: space-around;
+  justify-content: center;
   cursor: pointer;
+  
 }
+.nav li{
+  padding: 0px 15px;
+}
+
 .footer__container {
   width: 1200px;
   margin: 0 auto;
@@ -309,27 +333,49 @@ p span {
   height: 100px;
   text-align: center;
 }
-.header span{
-  color: #df1d9e;
-  font-size: 24px;
-  padding-top: 3px;
+ .highlight {
+  color: #ffffff;
+  font-size: 23px;
+  
 }
 .connect {
   display: flex;
   justify-content: center;
   text-decoration: none;
   font-size: 27px;
-  color: white;
+  color: rgb(255, 0, 0) !important;
   padding-top: 17px;
   list-style-type: none;
-  justify-content: space-around;
+}
+.connect li{
+  padding: 0px 15px;
 }
 .copyRight {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 88px;
   color: white;
 }
 .copyRight span{
   color: #df1d9e;
 }
+
+
+
+/* @media (max-width: 500px){
+
+  .navbar__container{
+    width: 100%;
+    position: fixed;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar__container{
+    width: 100%;
+    display: flex;
+    position: fixed;
+  }
+
+}  */
