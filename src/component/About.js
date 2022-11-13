@@ -49,7 +49,7 @@ function About() {
                   <div className="info__contact">
                     <div className="row">
                       {state.map(info=>(
-                      <div className="col-6">
+                      <div className="col-6 info">
                         <strong>{info.title} :</strong>
                         <p>{info.text}</p>
                       </div>
