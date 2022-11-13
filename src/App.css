@@ -29,6 +29,9 @@ p span {
   background: rgba(237, 35, 159, 0.6);
   -webkit-filter: blur(1.4px);
 }
+.contact__box:hover .icon {
+  color: #000000;
+}
 .contact__box {
   padding: 16px;
   background: #222f3e;
@@ -36,12 +39,6 @@ p span {
   margin: 5px;
   border-radius: 27px;
   transition: all 0.2s linear;
-}
-.header {
-  width: 100%;
-}
-.contact__box:hover .icon {
-  color: #000000;
 }
 .contact__box-p {
   font-size: 13px;
@@ -62,10 +59,7 @@ p span {
   width: 100%;
   flex-wrap: wrap;
 }
-.row {
-  display: flex;
-  width: 100%;
-}
+
 .contact__box:hover {
   background: #ed239f;
 }
@@ -336,11 +330,10 @@ p span {
     height: 70px;
     width: 100%;
   }
-  .container-fluid{
+  .container-fluid {
     width: 90%;
     margin-top: -28px;
   }
-  
 
   .nav-link {
     text-align: center;
@@ -352,53 +345,76 @@ p span {
     border-bottom: 2px solid #ed239f;
   }
 
-  .header__section{
-    margin-top:  -69px;
+  .header__section {
+    margin-top: -69px;
     margin-left: -161px;
-    
   }
-  
-.typewriter{
-  width: 16rem;
-}
 
-.bgimg{
-  width: 90%;
-}
+  .typewriter {
+    width: 16rem;
+  }
 
-p span{
-  margin-left: 40px;
-}
+  .bgimg {
+    width: 90%;
+  }
 
-.about__img{
-  display: none;
-}
+  p span {
+    margin-left: 40px;
+  }
 
-.col-6{
-  width: 337px;
-}
-.h-21{
-  width: 106%;
-}
-.info{
-  width: 154px;
-}
+  .about__img {
+    display: none;
+  }
 
-}
+  .col-6 {
+    width: 337px;
+  }
+  .h-21 {
+    width: 106%;
+  }
+  .info {
+    width: 154px;
+  }
 
-
-
-
-
-
-
-
-/* 
-@media only screen and (max-width: 768px) {
-  .navbar__container{
+  .row-1 {
+    display: inline;
+  }
+  .contact__box {
+    padding: 0px;
+    margin: 5px;
+    border-radius: 13px;
+  }
+  .contact__box-p {
+    font-size: 13px;
+    padding-bottom: 13px;
+    margin: -10px 7px 9px 60px;
+  }
+  .contact__box-header {
+    font-size: 16px;
+    font-weight: 500;
+    margin: -39px 47px 15px 62px;
+  }
+  .icon {
+    font-size: 40px;
+    color: #ff0000d0;
+    margin: 13px 9px 0px 8px;
+  }
+  .col-4 {
     width: 100%;
-    display: flex;
-    position: fixed;
   }
-
-}  */
+  /* foooter css */
+  .footer__area {
+    height: 56vh;
+    width: 101%;
+  }
+  .nav li {
+    padding: 0px 6px;
+  }
+  .footer__container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .copyRight {
+    padding-bottom: 30px;
+  }
+}
