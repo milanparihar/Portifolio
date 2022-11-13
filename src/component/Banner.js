@@ -26,8 +26,8 @@ function Banner() {
                         <h2>Hi,</h2>
                         <h2>{state.title}</h2>
                     </div>
-                  <h3 className="col-9">
-                   <Typewriter className='typewriter'
+                  <h3 className="typewriter">
+                   <Typewriter 
                       options={{
                         strings: [
                           "Full-Stack Developer.",

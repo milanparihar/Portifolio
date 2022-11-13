@@ -85,53 +85,31 @@ p span {
 
 .navbar {
   width: 100%;
-  height: 70px;
+  height: 60px;
   position: fixed;
   background: #1f2235;
   z-index: 1;
   top: 0;
   opacity: 80%;
 }
-.navbar__container {
-  display: flex;
-  height: 70px;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-}
-.navbar__right {
-  display: flex;
-  list-style-type: none;
-}
-.navbar__right li a {
+
+.nav-link {
   text-decoration: none;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
   font-weight: 500;
   font-size: 20px;
-  padding: 0px 15px;
+  padding: 3px 20px;
   transition: all 0.1s linear;
   cursor: pointer;
 }
-.navbar__right li a:hover {
-  padding-bottom: 7px;
+.nav-item a:hover {
+  padding: 0px;
 
   border-bottom: 2px solid #ed239f;
 }
-.navbar__right li a.active {
-  padding-bottom: 10px;
+.nav-item.active {
   border-bottom: 2px solid #ed239f;
 }
-/* .container {
-  width: 1200px;
-  margin: 0 auto;
-} */
-
-
-/* .NavbarDrop {
-  float: right;
-  display: none;
-  padding: 14px 30px 0 0;
-} */
 
 /* banner css */
 .header__section {
@@ -142,6 +120,7 @@ p span {
   padding: 190px;
   background-repeat: no-repeat;
   height: 100vh;
+  width: 100%;
 }
 
 .header__content {
@@ -197,11 +176,9 @@ p span {
   text-decoration: none;
   transition: all 0.3s linear;
 }
-.btn:hover{
+.btn:hover {
   background: #000000;
   color: rgb(255, 255, 255);
-
-
 }
 
 .header__ul li {
@@ -276,13 +253,6 @@ p span {
   margin: 10px 0;
 }
 
-
-
-
-
-
-
-
 /* contact css  */
 
 .inp {
@@ -319,9 +289,8 @@ p span {
   font-weight: 500;
   justify-content: center;
   cursor: pointer;
-  
 }
-.nav li{
+.nav li {
   padding: 0px 15px;
 }
 
@@ -333,10 +302,9 @@ p span {
   height: 100px;
   text-align: center;
 }
- .highlight {
+.highlight {
   color: #ffffff;
   font-size: 23px;
-  
 }
 .connect {
   display: flex;
@@ -347,7 +315,7 @@ p span {
   padding-top: 17px;
   list-style-type: none;
 }
-.connect li{
+.connect li {
   padding: 0px 15px;
 }
 .copyRight {
@@ -356,21 +324,76 @@ p span {
   padding-bottom: 88px;
   color: white;
 }
-.copyRight span{
+.copyRight span {
   color: #df1d9e;
 }
 
+@media (max-width: 450px) {
+  /* navbar css */
 
-
-/* @media (max-width: 500px){
-
-  .navbar__container{
+  .navbar {
+    width: 10px;
+    height: 70px;
     width: 100%;
-    position: fixed;
-
   }
+  .container-fluid{
+    width: 90%;
+    margin-top: -28px;
+  }
+  
+
+  .nav-link {
+    text-align: center;
+    background: rgb(241, 228, 228);
+  }
+  .nav-item a:hover {
+    padding: 10px;
+
+    border-bottom: 2px solid #ed239f;
+  }
+
+  .header__section{
+    margin-top:  -69px;
+    margin-left: -161px;
+    
+  }
+  
+.typewriter{
+  width: 16rem;
 }
 
+.bgimg{
+  width: 90%;
+}
+
+p span{
+  margin-left: 40px;
+}
+
+.about__img{
+  display: none;
+}
+
+.col-6{
+  width: 337px;
+}
+.h-21{
+  width: 106%;
+}
+.info{
+  width: 154px;
+}
+
+}
+
+
+
+
+
+
+
+
+/* 
 @media only screen and (max-width: 768px) {
   .navbar__container{
     width: 100%;
