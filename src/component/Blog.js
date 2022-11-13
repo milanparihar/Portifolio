@@ -7,12 +7,7 @@ import "../App.css";
 function Blog() {
   return (
     <div className="blog" id='blog12'>
-        <h1>dsc</h1>
-        <h1>dsc</h1>
-        <h1>dsc</h1>
-        <h1>dsc</h1>
-        <h1>dsc</h1>
-        <h1>dsc</h1>
+        
     </div>
   )
 }
